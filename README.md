@@ -53,6 +53,18 @@ After that I suggest to install Angular Fullstack generator, run
 	
 There you have their github [Angular Fullstack Generator](https://github.com/angular-fullstack/generator-angular-fullstack)
 
-	
+To see Node versions installed run
 
+	$ nvm ls
+	
+To use a specific version of Node run
+
+	$ nvm use <selected Node version>
+	
+##Helpful commands
+To know how much space is available in you Edison run
+
+	$ df -h
+	
+	
 
