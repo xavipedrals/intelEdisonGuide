@@ -18,6 +18,17 @@ In order to avoid space problems I suggest deleting "edison" user by running
 	
 And then you always use the "root" user.
 
+###Troubleshooting
+Sometimes Ubilinux nano text editor fails to edit or display correctly a file. If you have problems in editing files (to edit the ip config file for example) I suggest using vi editor, some helpful commands are listed here
+
+To open a file in vi run
+
+	$ vi <filename>
+
+- To edit a file press "i" (you enter the edit mode)
+- To save a edited file first press "Esc" to exit edit mode and then press "ZZ" (z in mayus)
+- To discard changes done to a file and exit Vi first press "Esc" to exit edit mode and then press ":q" 
+
 ##Configuring NVM
 NVM stands for Node Version Manager. It's used for having various installations of Node without conficts and without having to run some npm commands with sudo.
 
@@ -42,17 +53,6 @@ Login again and run
 	$ command -v nvm
 	
 If you see nvm you got it installed right.
-
-###Troubleshooting
-Sometimes Ubilinux nano text editor fails to edit or display correctly a file. If you have problems in editing files (to edit the ip config file for example) I suggest using vi editor, some helpful commands are listed here
-
-To open a file in vi run
-
-	$ vi <filename>
-
-- To edit a file press "i" (you enter the edit mode)
-- To save a edited file first press "Esc" to exit edit mode and then press "ZZ" (z in mayus)
-- To discard changes done to a file and exit Vi first press "Esc" to exit edit mode and then press ":q" 
 
 
 ##Installing Node.js with NVM
